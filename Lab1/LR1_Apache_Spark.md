@@ -2,7 +2,7 @@
 
 Работа начинается с инициализации сессии и загрузки необходимых данных: 
 
-![1](https://github.com/vmokook/BigData/blob/main/LR1/Images/1.png)
+![1](Lab1/Images/1.png)
 
 ![2](https://github.com/vmokook/BigData/blob/main/LR1/Images/2.png) ![3](https://github.com/vmokook/BigData/blob/main/LR1/Images/3.png)     
 
