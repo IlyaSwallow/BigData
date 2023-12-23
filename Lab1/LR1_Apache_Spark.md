@@ -4,7 +4,7 @@
 
 ![1](https://github.com/IlyaSwallow/BigData/blob/main/Lab1/Images/1.png)
 
-![2](https://github.com/IlyaSwallow/BigData/blob/main/Lab1/Images/2.png) ![3](https://github.com/vmokook/BigData/blob/main/LR1/Images/3.png)     
+![2](https://github.com/IlyaSwallow/BigData/blob/main/Lab1/Images/2.png) ![3](https://github.com/IlyaSwallow/BigData/blob/main/Lab1/Images/3.png)     
 
 
 ## 1. Найти велосипед с максимальным временем пробега.
@@ -18,7 +18,7 @@
 `col("max_duration").desc()` указывает, что происходит сортировка по столбцу "max_duration" в порядке убывания.
 `.first()` - выбирает первую строку в отсортированных данных. Таким образом, получается велосипед с максимальным временем пробега.
   
-![4](https://github.com/vmokook/BigData/blob/main/LR1/Images/4.png)
+![4](https://github.com/IlyaSwallow/BigData/blob/main/Lab1/Images/4.png)
 
 
 ## 2. Найти наибольшее геодезическое расстояние между станциями.
@@ -41,8 +41,8 @@
 5. `max_distance = station_joined_distance.orderBy(col("geodesic_distance").desc()).first():`
 Сортируем station_joined_distance в порядке убывания геодезического расстояния и выбираем первую строку с максимальным расстоянием.
 
-![5](https://github.com/vmokook/BigData/blob/main/LR1/Images/5.png )
-![6](https://github.com/vmokook/BigData/blob/main/LR1/Images/6.png )
+![5](https://github.com/IlyaSwallow/BigData/blob/main/Lab1/Images/5.png )
+![6](https://github.com/IlyaSwallow/BigData/blob/main/Lab1/Images/6.png )
 
 
 ## 3. Найти путь велосипеда с максимальным временем пробега через станции.
@@ -59,8 +59,8 @@
 временем пробега. Выбираеются необходимые столбцы с помощью метода `select`. Конечная таблица сортируется по убыванию продолжительности поездки.
 И результат выводится в виде таблицы. Первое значение в таблице соотвествует поездкам веловсипеда с максимальным временем пробега. 
 
-![7](https://github.com/vmokook/BigData/blob/main/LR1/Images/7.png )
-![8](https://github.com/vmokook/BigData/blob/main/LR1/Images/8.png )
+![7](https://github.com/IlyaSwallow/BigData/blob/main/Lab1/Images/7.png )
+![8](https://github.com/IlyaSwallow/BigData/blob/main/Lab1/Images/8.png )
 
 
 ## 4. Найти количество велосипедов в системе.
@@ -69,7 +69,7 @@
 Метод "select" - выбирает только столбец "bike_id" из  trip. "distinct()" - удаляет все дубликаты, оставляя только уникальные значения в 
 столбце "bike_id". Операция "count()" возвращает общее количество уникальных значений в столбце "bike_id". 
 
-![9](https://github.com/vmokook/BigData/blob/main/LR1/Images/9.png )
+![9](https://github.com/IlyaSwallow/BigData/blob/main/Lab1/Images/9.png )
 
 
 ## 5. Найти пользователей потративших на поездки более 3 часов.
@@ -78,4 +78,4 @@
 Создаем таблицу "users_", которая содержит уникальные значения столбцов "subscription_type" и "zip_code". Результатом выполнения 
 является таблица "users_", после операции "count()" выводится общее количество уникальных значений из таблицы "users_".
 
-![10](https://github.com/vmokook/BigData/blob/main/LR1/Images/10.png )
+![10](https://github.com/IlyaSwallow/BigData/blob/main/Lab1/Images/10.png )
