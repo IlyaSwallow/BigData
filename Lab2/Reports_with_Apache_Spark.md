@@ -11,7 +11,7 @@
 
 ### Выполнение начинаем с инициализации сессии: 
 
-![1](https://github.com/vmokook/BigData/blob/main/LR2/Image/1.png)
+![1](https://github.com/IlyaSwallow/BigData/blob/main/Lab2/Image/1.png)
 
 ### Далее загружаем файлы: 
 
